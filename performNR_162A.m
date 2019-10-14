@@ -6,7 +6,6 @@ f2 = (0.06*sin(1.047))-(0.15*sin(theta3))-(0.08*sin(theta4));
 f = [f1; f2];
 v = [theta3;theta4];
 jacf = jacobian(f,v);
-funcMat = inv(jacobian(f,v));
 iter = 1;
 maxiter = 30;
 func = inline(f);
