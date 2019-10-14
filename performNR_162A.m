@@ -1,3 +1,4 @@
+%derived from finding the roots of the Taylor series expansions of each equation and iterating until error is below threshold
 clear all
 syms theta3 theta4
 currVal = [3.2;1.8];
